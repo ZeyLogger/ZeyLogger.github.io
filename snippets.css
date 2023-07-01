@@ -1,0 +1,124 @@
+/* threads */
+[aria-label="Create Thread"],
+[class^="threadSuggestionBar"], 
+[class^="popout-TdhJ6Z"] {
+    display: none;
+}
+/* activity button */
+[class^=callContainer-]
+[class^=row-]:not(:has(
+    [class^=voiceChannelEffectsContainer-])
+) {
+    display: none;
+}
+[class^=callContainer-]
+[class^=listItems-] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1ex;
+    justify-content: center;
+}
+[class^=callContainer-]
+[class^=bottomControls-]
+>div>div
+>[class^=buttonContainer-]:nth-child(3) {
+    display: none;
+}
+[class^=actionButtons-]
+>:is(button:nth-child(3)) {
+    display: none;
+}
+
+/* help button */
+[class*="toolbar-"] > a[href*="support.discord.com"],
+[aria-label="Notification Settings"] {
+    display: none;
+}
+/* in voice activity */
+[class*=container-][class*=bottom-]:has([class*=voiceChannelsIcon-]) {
+    display: none;
+}
+/* boost level icon */
+[class*="rowGuildName-"] [class*="flowerStarContainer-"] {
+    display: none;
+}
+/* billing section */
+.layer-86YKbF > .standardSidebarView-E9Pc3j .side-1lrxIh > div:nth-of-type(n+9):nth-of-type(-n+15),
+#user-settings-cog > .scroller-nxCRu_ > .item-5ApiZt:nth-of-type(n+8):nth-of-type(-n+14) {
+    display: none;
+}
+/* GIF text */
+.altText-sAs-Ao {
+    margin: .25rem 0 -0.15rem;
+    line-height: 17px;
+}
+/* hide notes */
+.section-28YDOf:has(.note-1NN2aP) {
+    display: none;
+    padding-bottom: 23px;
+}
+[class*=memberSinceContainer-] {
+    margin-bottom: 16px;
+}
+
+/* search bar */
+:root {
+    --transitionspeed: 0.25s;
+}
+.search-2Mwzzq:not(.open-1F8u2c) .searchBar-jGtisZ {
+    width: 27px;
+    transition: var(--transitionspeed);
+    background-color: transparent;
+}
+.search-2Mwzzq:not(.open-1F8u2c):hover .searchBar-jGtisZ {
+    width: 170px;
+    background-color: var(--background-tertiary);
+}
+.search-2Mwzzq:not(.open-1F8u2c) .iconContainer-1RqWJj {
+    transform: scale(1.3);
+    transition: var(--transitionspeed);
+}
+.search-2Mwzzq:not(.open-1F8u2c):hover .iconContainer-1RqWJj {
+    transform: scale(1);
+}
+.search-2Mwzzq:not(.open-1F8u2c) .icon-18rqoe {
+    color: var(--text-normal);
+}
+.search-2Mwzzq:not(.open-1F8u2c):hover .icon-18rqoe {
+    color: var(--text-muted);
+}
+
+/* vencord toolbox */
+.vc-toolbox-btn svg path {
+    display: none;
+}
+.vc-toolbox-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn.discordapp.com/attachments/1025149631253991475/1117030250786848878/T00gKRsY.gif");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    z-index: -1;
+}
+:is(.vc-toolbox-btn:hover, .vc-toolbox-btn[class*="selected"]) svg path {
+    display: none;
+}
+:is(.vc-toolbox-btn:hover, .vc-toolbox-btn[class*="selected"])::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn.discordapp.com/attachments/1025149631253991475/1117030391694508093/dPXyPZUT.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    z-index: -1;
+}
