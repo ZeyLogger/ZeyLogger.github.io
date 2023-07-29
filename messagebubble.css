@@ -32,7 +32,7 @@
 
 #app-mount .contents-2MsGLg {
     background-color: var(--background-secondary);
-    border-radius: 8px;
+    border-radius: 10px;
     width: fit-content;
 }
 #app-mount .contents-2MsGLg {
@@ -62,9 +62,9 @@
 
 #app-mount .repliedMessage-3Z6XBG {
     background-color: var(--background-secondary-alt);
-    margin-bottom: 0;
+    margin-bottom: -5;
     padding: 6px;
-    border-radius: 8px;
+    border-radius: 10px;
     width: fit-content;
     max-width: 100%;
 }
