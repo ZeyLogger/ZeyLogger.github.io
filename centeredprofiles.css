@@ -1,0 +1,74 @@
+/* I got some stuff from DiscordStyles/Fluent, you can customize anything
+almost everything is made by me, there is always a better way to do it, but I tried */
+
+/* center profile picture */
+#app-mount .topSection-13QKHs .wrapper-3Un6-K {
+    position: absolute;
+    left: 50%; right: 50%;
+    top: 50%; bottom: 50%;
+    transform: translate(-50%, -50%);
+    background: hsla(0, 0%, 0%, 0.70);
+    box-shadow: 0 0 0px 8px hsla(0, 0%, 0%, 0.70);
+}
+#app-mount .userPopoutOuter-1OHwPL .wrapper-3Un6-K {
+    position: relative;
+    left: 70px; right: 0%;
+    transform: translate(50%, 0%);
+    background: hsla(0, 0%, 0%, 0.70);
+    box-shadow: 0 0 0px 8px hsla(0, 0%, 0%, 0.70);
+}
+/* thanks to w3y6 for the little help */
+[class*=bannerSVGWrapper-] > mask {
+    display: none;
+}
+
+.avatarHint-k7pYop {
+    display: none;
+}
+
+/* banner gradient (comment to disable) */
+#app-mount .userPopoutOuter-1OHwPL .banner-1YaD3N {
+    -webkit-mask: linear-gradient(hsla(0, 0%, 0%, 0.5), transparent 100%);
+    mask: linear-gradient(hsla(0, 0%, 0%, 0.5), transparent 100%);
+    position: absolute;
+}
+#app-mount .topSection-13QKHs .banner-1YaD3N {
+    -webkit-mask: linear-gradient(hsla(0, 0%, 0%, 0.5), transparent 100%);
+    mask: linear-gradient(hsla(0, 0%, 0%, 0.5), transparent 100%);
+    position: absolute;
+}
+
+/* "add to server" on bots, you can just do display: none; if you want to */
+.applicationInstallButton-1-58qm {
+    left: -80%;
+}
+
+/* looks bad if you have a lot of badges, I didn't wanted to put that much effort */
+#app-mount .userProfileInner-1ngKnf .badgeList-2aoHPw {
+    margin-left: -145px;
+    margin-right: 175px;
+}
+#app-mount .userPopoutOuter-1OHwPL .profileBadges-2pItdR {
+    margin-left: 35px;
+    margin-right: 200px;
+}
+
+
+/* extra, center usernames */
+
+/* centered usernames */
+.usernameSection-3FppkT,
+.container-3g15px {
+    text-align: center;
+}
+.customStatus-19KW6v {
+    display: flex;
+}
+.nameTag-35jqbZ,
+.customStatus-19KW6v,
+.tabBar-2hXqzU {
+    justify-content: center;
+}
+.defaultColor-1EVLSt.text-lg-semibold-UQkeZc {
+    margin-right: 0 !important;
+}
