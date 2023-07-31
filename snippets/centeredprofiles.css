@@ -26,7 +26,8 @@ almost everything is made by me, there is always a better way to do it, but I tr
     display: none;
 }
 
-/* banner gradient (comment to disable) */
+/* banner gradient (optional) */
+/*
 #app-mount .userPopoutOuter-1OHwPL .banner-1YaD3N {
     -webkit-mask: linear-gradient(hsla(0, 0%, 0%, 0.5), transparent 100%);
     mask: linear-gradient(hsla(0, 0%, 0%, 0.5), transparent 100%);
@@ -37,6 +38,7 @@ almost everything is made by me, there is always a better way to do it, but I tr
     mask: linear-gradient(hsla(0, 0%, 0%, 0.5), transparent 100%);
     position: absolute;
 }
+*/
 
 /* "add to server" on bots, you can just do display: none; if you want to */
 .applicationInstallButton-1-58qm {
