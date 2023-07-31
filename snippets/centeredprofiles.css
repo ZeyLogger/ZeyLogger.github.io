@@ -55,6 +55,10 @@ almost everything is made by me, there is always a better way to do it, but I tr
     margin-right: 200px;
 }
 
+/* Badges double row on small screens fix (I got it from Lumap on vencord server) */
+.container-1gYwHN {
+  min-height: unset;
+}
 
 /* extra, center usernames */
 
