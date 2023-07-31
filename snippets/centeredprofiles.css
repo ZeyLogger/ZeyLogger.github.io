@@ -53,6 +53,7 @@ almost everything is made by me, there is always a better way to do it, but I tr
 #app-mount .userPopoutOuter-1OHwPL .profileBadges-2pItdR {
     margin-left: 35px;
     margin-right: 200px;
+    margin-top: 20px;
 }
 
 /* Badges double row on small screens fix (I got it from Lumap on vencord server) */
