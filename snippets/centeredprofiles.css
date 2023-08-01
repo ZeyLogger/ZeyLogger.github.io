@@ -42,7 +42,7 @@ almost everything is made by me, there is always a better way to do it, but I tr
 
 /* "add to server" on bots, you can just do display: none; if you want to */
 .applicationInstallButton-1-58qm {
-    left: -80%;
+    left: -200px;
 }
 
 /* looks bad if you have a lot of badges, I didn't wanted to put that much effort */
@@ -58,7 +58,8 @@ almost everything is made by me, there is always a better way to do it, but I tr
 
 /* Badges double row on small screens fix (I got it from Lumap on vencord server) */
 .container-1gYwHN {
-  min-height: unset;
+    margin-top: 20px;
+    min-height: unset;
 }
 
 /* extra, center usernames */
