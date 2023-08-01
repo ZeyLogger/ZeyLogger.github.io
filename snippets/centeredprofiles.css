@@ -56,15 +56,14 @@ almost everything is made by me, there is always a better way to do it, but I tr
     margin-top: 20px;
 }
 
-/* Badges double row on small screens fix (I got it from Lumap on vencord server) */
-.container-1gYwHN {
-    margin-top: 20px;
+/* Badges double row on small screens fix (by lumap) */
+.container-1gYwHN:not(:empty) {
     min-height: unset;
 }
 
 /* extra, center usernames */
 
-/* centered usernames */
+/* centered usernames, also got it from vencord server */
 .usernameSection-3FppkT,
 .container-3g15px {
     text-align: center;
