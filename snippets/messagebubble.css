@@ -75,10 +75,6 @@
 #app-mount .replying-eZ7p5z .contents-2MsGLg {
     background-color: var(--brand-experiment-05a);
 }
-#app-mount .replying-eZ7p5z:hover .contents-2MsGLg,
-#app-mount .replying-eZ7p5z.selected-2LX7Jy .contents-2MsGLg {
-    background-color: var(--brand-experiment-10a);
-}
 
 #app-mount .replying-eZ7p5z:before {
     background-color: var(--brand-experiment);
