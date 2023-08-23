@@ -1,0 +1,95 @@
+/* gradient banner from DiscordStyles/Fluent, some other stuff from vencord */
+/* I have some probiem with commenting everything */
+
+/* center profile picture in full profile */
+#app-mount .userProfileInner-1ngKnf .avatar-3QF_VA {
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* center profile picture in user popout */
+#app-mount .userPopoutOuter-1OHwPL .avatarWrapper-eenWra {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* weird fix for non nitro users */
+.userPopoutOuter-1OHwPL .userProfileOuterUnthemed-11rPfA .avatarWrapper-eenWra {
+    margin-top: -5px;
+    top: 20px;
+}
+
+/* background behind the avatar */
+.bannerSVGWrapper-2CLfzN circle {
+    cx: 50%;
+}
+
+/* banner gradient (optional) */
+/* #app-mount .userPopoutOuter-1OHwPL .banner-1YaD3N {
+    -webkit-mask: linear-gradient(hsla(0, 0%, 0%, 0.5), transparent 100%);
+    mask: linear-gradient(hsla(0, 0%, 0%, 0.5), transparent 100%);
+    position: absolute;
+}
+#app-mount .topSection-13QKHs .banner-1YaD3N {
+    -webkit-mask: linear-gradient(hsla(0, 0%, 0%, 0.5), transparent 100%);
+    mask: linear-gradient(hsla(0, 0%, 0%, 0.5), transparent 100%);
+    position: absolute;
+} */
+
+/* add to server on bots*/
+.applicationInstallButton-1-58qm {
+    left: 45%;
+    top: 80px;
+}
+
+/* looks bad if you have a lot of badges */
+#app-mount .userProfileInner-1ngKnf .badgeList-2aoHPw {
+    margin-left: -145px;
+    margin-right: 175px;
+}
+#app-mount .userPopoutOuter-1OHwPL .profileBadges-2pItdR {
+    margin-left: 35px;
+    margin-right: 200px;
+}
+
+/* Badges double row on small screens fix (by lumap) */
+.container-1gYwHN:not(:empty) {
+    min-height: unset;
+}
+
+/* center usernames (from vencord) */
+.usernameSection-3FppkT,
+.container-3g15px {
+    text-align: center;
+}
+.customStatus-19KW6v {
+    display: flex;
+}
+.nameTag-35jqbZ,
+.customStatus-19KW6v,
+.tabBar-2hXqzU {
+    justify-content: center;
+}
+.defaultColor-1EVLSt.text-lg-semibold-UQkeZc {
+    margin-right: 0 !important;
+}
+
+/* extra version */
+/* .usernameSection-3FppkT,
+.container-3g15px {
+    text-align: center;
+}
+.customStatus-19KW6v,
+.eyebrow-1Shfyi {
+    display: flex;
+}
+.eyebrow-1Shfyi,
+.nameTag-35jqbZ,
+.customStatus-19KW6v,
+.memberSinceContainer-2CBD23,
+.section-28YDOf > div,
+.tabBar-2hXqzU {
+    justify-content: center;
+}
+.defaultColor-1EVLSt.text-lg-semibold-UQkeZc {
+    margin-right: 0 !important;
+} */
