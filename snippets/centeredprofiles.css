@@ -17,6 +17,10 @@
     margin-top: -5px;
     top: 20px;
 }
+/* copy username fix (cheap fix like above)*/
+.copiableField-2DYmf7 {
+    padding-left: 30px;
+}
 
 /* background behind the avatar */
 .bannerSVGWrapper-2CLfzN circle {
